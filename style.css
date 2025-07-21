@@ -77,4 +77,20 @@
 
 /* ----- Main ----- */
 
+/* --- Sponsor Logo --- */
+.sponsor-logo {
+  max-width: 1110px;
+  max-height: 110px;
+
+  margin: 0 auto;
+  padding: 36px 62px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 100px;
+  border-top: 1px solid rgba(85, 85, 85, 0.07);
+  border-bottom: 1px solid rgba(85, 85, 85, 0.07);
+  border-radius: 5px;
+}
+
 /* ----- Footer ---- */
