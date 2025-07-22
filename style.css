@@ -196,4 +196,30 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 /* ----- Footer ---- */
+.footer-bg {
+  background-color: rgba(10, 8, 38, 1);
+}
+.footer-title {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+.footer-description {
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 1);
+}
+.footer-container {
+  text-align: center;
+}
+.footer-icon {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 17px;
+  font-size: 25px;
+}
