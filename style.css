@@ -6,7 +6,7 @@
 
 /* ----- Font ----- */
 
-/* ----- Share Font Size and Font color ----- */
+/* ----- Share Font Size and Font color, BTN ----- */
 
 .font-16-dark-3-semibold {
   font-size: 1rem;
@@ -19,6 +19,9 @@
 }
 .share-color {
   color: rgba(58, 58, 58, 1);
+}
+.btn-space i {
+  margin-left: 10px;
 }
 
 /* ----- Header ----- */
@@ -93,4 +96,104 @@
   border-radius: 5px;
 }
 
+/* --- Item --- */
+.item-container {
+  max-width: 1047px;
+  max-height: 1662px;
+  /* background-color: antiquewhite; */
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.container-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: rgba(58, 58, 58, 1);
+}
+
+/* --- Card --- */
+.card-item {
+  max-width: 329px;
+  max-height: 476px;
+}
+.card-box {
+  text-align: start;
+  margin-left: 14px;
+}
+.card-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.808);
+}
+.card-price {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.808);
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+.card-item {
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.307);
+  padding-bottom: 16px;
+}
+.card-item img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card-star {
+  display: flex;
+  gap: 2px;
+}
+.card-star p {
+  margin-left: 5px;
+}
+
+.container-box {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+.more {
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 1rem;
+  font-weight: bold;
+}
+.see-more {
+  text-align: end;
+  margin-top: 50px;
+}
+
+/* --- products --- */
+.products-container {
+  margin-top: 30px;
+}
+.products-title {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: rgba(10, 8, 38, 1);
+  margin-bottom: 16px;
+}
+.products-btn {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+  background-color: rgba(224, 44, 109, 1);
+  padding: 10px 24px;
+  border: none;
+  border-radius: 2px;
+  margin-top: 16px;
+}
+.products {
+  max-width: 1110px;
+  max-height: 270px;
+  display: flex;
+  gap: 100px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 /* ----- Footer ---- */
